@@ -20,7 +20,7 @@ ngrok or Cloudflare for tunneling
 Step-by-step Setup
 
 Install Redis and start the Redis server
-Copy# Install Redis (Ubuntu example)
+# Install Redis (Ubuntu example)
 sudo apt-get install redis-server
 
 # Start Redis server
@@ -28,8 +28,7 @@ redis-server
 
 Set up tunneling for the webhook
 Use ngrok or Cloudflare to create a tunnel from your local server to the internet.
-Example with ngrok:
-Copyngrok http 5000
+Example with ngrok:ngrok http 5000
 
 Configure settings
 Open settings.py and set the following variables:
@@ -41,13 +40,13 @@ Add any specific instructions for the Gemini AI
 
 
 Install required Python packages
-Copypip install -r requirements.txt
+pip install -r requirements.txt
 
 Start Celery workers
-Copycelery -A celery_tasks worker --loglevel=info
+celery -A celery_tasks worker --loglevel=info
 
 Run the application
-Copypython run.py
+python run.py
 
 
 Usage
