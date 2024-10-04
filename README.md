@@ -34,8 +34,8 @@ Configure settings
 Open settings.py and set the following variables:
 
 BOT_API_KEY: Your Telegram Bot API token
-GEMINI_API_KEY: Your Google Gemini AI API key
-WEBHOOK_URL: The external URL from ngrok or Cloudflare
+GEMINI_KEY: Your Google Gemini AI API key
+WEBHOOK: The external URL from ngrok or Cloudflare
 Add any specific instructions for the Gemini AI
 
 
