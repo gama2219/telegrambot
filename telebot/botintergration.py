@@ -2,7 +2,6 @@ from celery_ import app
 import settings
 import telebot
 import  google.generativeai as genai
-import dill
 
 #this file handles the intergration between the telegrambot and gemini api
 genai.configure(api_key=settings.GEMINI_KEY)
