@@ -1,1 +1,6 @@
-
+flask
+celery
+redis
+pyTelegramBotAPI
+google-generativeai
+python==3.12.6
