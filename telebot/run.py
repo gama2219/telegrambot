@@ -8,8 +8,7 @@ import os
     in the setting.py file before running this file
 """
 def main():
-    databaseconf.init_db()
-    #start workers
+    databaseconf.init_db()
     flask_.app.run(host='0.0.0.0',port=5000)
 if __name__=='__main__':
     main()
