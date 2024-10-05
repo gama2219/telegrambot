@@ -15,7 +15,7 @@ def init_db():
         ''')
         conn.commit()
 
-# Save message to database with thread safety
+
 def save_message(user_id, role, text):
         with sqlite3.connect('chat_history.db') as conn:
             c = conn.cursor()
